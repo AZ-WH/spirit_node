@@ -1,0 +1,109 @@
+<!--sidebar start-->
+<aside>
+	<div id="sidebar"  class="nav-collapse ">
+		<!-- sidebar menu start-->
+		<ul class="sidebar-menu" id="nav-accordion">
+			<li>
+				<a href="/" class="<% if(menuactive == 'gk'){%>active<% }%>">
+					<i class="icon-dashboard"></i>
+					<span>概况</span>
+					<% if(menuactive == 'gk'){%>
+					<span class="dcjq-icon"></span>
+					<% }%>
+				</a>
+			</li>
+			
+			<li class="sub-menu">
+				<a href="javascript:;" class="<% if(menuactive == 'cdgl'){%>active<% }%>">
+					<i class="icon-laptop"></i>
+					<span>菜品管理</span>
+					<% if(menuactive == 'cdgl'){%>
+					<span class="dcjq-icon"></span>
+					<% }%>
+				</a>
+				<ul class="sub">
+					<li><a  href="/goods">菜品列表</a></li>
+					<li><a  href="/goods/add">添加菜品</a></li>
+					<li><a  href="/goods/category/1">菜品分类</a></li>
+				</ul>
+			</li>
+			
+			<li class="sub-menu">
+				<a href="javascript:;" class="<% if(menuactive == 'flgl'){%>active<% }%>">
+					<i class="icon-laptop"></i>
+					<span>分类管理</span>
+					<% if(menuactive == 'cdgl'){%>
+					<span class="dcjq-icon"></span>
+					<% }%>
+				</a>
+				<ul class="sub">
+					<li><a  href="/category">分类列表</a></li>
+					<li><a  href="/category/add">添加分类</a></li>
+				</ul>
+			</li>
+
+			<li class="sub-menu">
+				<a href="javascript:;" class="<% if(menuactive == 'dygl'){%>active<% }%>">
+					<i class="icon-laptop"></i>
+					<span>店员管理</span>
+					<% if(menuactive == 'dygl'){%>
+					<span class="dcjq-icon"></span>
+					<% }%>
+				</a>
+				<ul class="sub">
+					<li><a  href="/shop/user">店员列表</a></li>
+					<li><a  href="/shop/add-user">添加店员</a></li>
+				</ul>
+			</li>
+
+			<li class="sub-menu">
+				<a href="javascript:;" >
+					<i class="icon-laptop"></i>
+					<span>食客管理</span>
+				</a>
+				<ul class="sub">
+					<li><a  href="/admin/goods">食客列表</a></li>
+				</ul>
+			</li>
+
+			<li class="sub-menu">
+				<a href="javascript:;" >
+					<i class="icon-laptop"></i>
+					<span>订单管理</span>
+				</a>
+				<ul class="sub">
+					<li><a  href="/admin/goods">订单列表</a></li>
+				</ul>
+			</li>
+			
+			<li class="sub-menu">
+				<a href="javascript:;" >
+					<i class="icon-laptop"></i>
+					<span>数据信息</span>
+				</a>
+				<ul class="sub">
+					<li><a  href="boxed_page.html">食客数据信息</a></li>
+					<li><a  href="horizontal_menu.html">菜品数据信息</a></li>
+					<li><a  href="language_switch_bar.html">总统计</a></li>
+				</ul>
+			</li>
+
+			<li class="sub-menu">
+				<a href="javascript:;" class="<% if(menuactive == 'dpgl'){%>active<% }%>">
+					<i class="icon-laptop"></i>
+					<span>店铺管理</span>
+					<% if(menuactive == 'dpgl'){%>
+					<span class="dcjq-icon"></span>
+					<% }%>
+				</a>
+				<ul class="sub">
+					<li><a  href="/shop">店铺列表</a></li>
+					<li><a  href="/shop/add">添加店铺</a></li>
+				</ul>
+			</li>
+		</ul>
+		<!-- sidebar menu end-->
+	</div>
+</aside>
+<!--sidebar end-->
+
